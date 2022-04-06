@@ -1,0 +1,10 @@
+.nav-link {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    height: 100px;
+}
