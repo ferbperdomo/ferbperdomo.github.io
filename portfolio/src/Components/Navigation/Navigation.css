@@ -1,10 +1,13 @@
 .nav-link {
     display: flex;
     justify-content: end;
-    text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
-.navbar{
-    height: 100px;
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #dd4e3c;
 }

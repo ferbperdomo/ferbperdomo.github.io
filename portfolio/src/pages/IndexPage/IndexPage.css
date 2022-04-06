@@ -1,3 +1,68 @@
-video {
-    background-color: gray;
+#hero {
+    background-image: url('../../img/red.jpg');
+    color: white;
+    height: 80vh;
+    text-align: right;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.introduction {
+    margin-top: 10%;
+    font-size: 1.5em;
+}
+
+.wavy-hand {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.brand {
+    overflow: hidden;
+    font-size: 1.4em;
+    border-right: .10em solid;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: .10em;
+    animation: typing 3.5s ease-in-out,
+        blink-caret .75s ease-out infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+@media (min-width: 576px) {
+    #hero {
+        background-position: center;
+        text-align: right;
+    }
 }
