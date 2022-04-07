@@ -1,4 +1,5 @@
 import { Container, Button } from 'react-bootstrap'
+import icon from '../../img/icon.png'
 import '../IndexPage/IndexPage.css'
 
 
@@ -13,9 +14,15 @@ const IndexPage = () => {
                     <p className='brand'>Cristian Perdomo.</p>
                     <p>FullStack Developer</p>
                     <Button href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-light">Linkedin</Button>
+                    <br />
                     <Button href='https://github.com/ferbperdomo' variant="outline-light">Github</Button>
                 </article>
 
+            </Container>
+            <Container>
+                <article className='icon'>
+                    <img src={icon}></img>
+                </article>
             </Container>
         </section>
     )
