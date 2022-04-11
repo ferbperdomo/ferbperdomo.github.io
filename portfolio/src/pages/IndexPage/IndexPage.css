@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 6vh;
+    /* font-size: 1.1em; */
 }
 
 h2 {
@@ -22,7 +23,12 @@ a {
 }
 
 .social {
+    margin-top: 10px;
     margin-right: 10px;
+}
+
+.career {
+    font-size: 1.4em;
 }
 
 .wavy-hand {
@@ -37,11 +43,10 @@ a {
 
 .brand {
     overflow: hidden;
-    font-size: 1.6em;
+    font-size: 2.1em;
+    letter-spacing: 1.5px;
     border-right: .10em solid;
     white-space: nowrap;
-    margin: 0 20% 10px 0;
-    letter-spacing: .10em;
     animation: typing 3.5s ease,
         blink-caret .75s ease infinite;
 }
@@ -74,14 +79,13 @@ a {
 }
 
 .icon img {
-    margin-top: 20%;
+    padding-top: 30px;
     width: 50%;
 }
 
 #about .container {
-    padding: 50px 50px 10px;
+    padding: 30px;
 }
-
 
 
 .btn-projects {
@@ -114,15 +118,12 @@ a {
 }
 
 #contact {
-    background-color: #E85240;
     padding: 40px;
-    color: white;
     text-align: center;
 }
 
 #contact h2 {
     font-weight: 200;
-    color: white;
     margin-bottom: 30px;
 }
 

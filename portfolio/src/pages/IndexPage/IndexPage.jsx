@@ -16,7 +16,7 @@ const IndexPage = () => {
                     <article className='introduction'>
                         <p>Hi! <img className='wavy-hand' src="https://media.tenor.com/images/30169e4a670daf12443df7d2dd140176/tenor.gif" alt='wavy hand' /> I am</p>
                         <p className='brand'>Cristian Perdomo.</p>
-                        <p>FullStack Developer</p>
+                        <p className='career'>FullStack Developer</p>
                         <Button className='social' href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-dark">Linkedin</Button>
                         <Button className='social' href='https://github.com/ferbperdomo' variant="outline-dark">Github</Button>
                     </article>
@@ -31,7 +31,6 @@ const IndexPage = () => {
                 <Container>
                     <article className='about-me'>
                         <h2>About me</h2>
-                        <p>I am a fullstack developer with a passion for learning and creating.</p>
                         <p>
                             After four years of teaching, I decided to decode my mind and recode it to be a developer. Now, I take advantage of my background and I see myself a strong communicator, adaptable, patient and, of course, a tech enthusiast.
                         </p>
