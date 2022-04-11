@@ -3,22 +3,25 @@
     color: white;
     height: 80vh;
     text-align: left;
-    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
-    position: relative;
 }
 
 h2 {
     font-size: 2.3em;
     text-align: center;
-    color: #76281D;
     font-weight: 700;
     margin-top: 20px;
 }
 
-.btn {
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.social {
     margin-top: 25px;
 }
 
@@ -89,7 +92,17 @@ h2 {
 }
 
 #about .container {
-    padding: 50px;
+    padding: 50px 50px 10px;
+}
+
+a {
+    display: inherit;
+}
+
+.btn-projects {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
 }
 
 .mern {
@@ -113,6 +126,23 @@ h2 {
 
 #tech .container {
     padding: 0 50px 50px;
+}
+
+#contact {
+    background-color: #E85240;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-weight: 200;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.email {
+    margin-right: 10px;
 }
 
 @media (min-width: 576px) {

@@ -1,4 +1,5 @@
-import { Container, Button, Table } from 'react-bootstrap'
+import { Container, Button, Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import icon from '../../img/icon.png'
 import mern from '../../img/mern_icon.png'
 import '../IndexPage/IndexPage.css'
@@ -15,9 +16,9 @@ const IndexPage = () => {
                         <p>Hi! <img className='wavy-hand' src="https://media.tenor.com/images/30169e4a670daf12443df7d2dd140176/tenor.gif" alt='wavy hand' /> I am</p>
                         <p className='brand'>Cristian Perdomo.</p>
                         <p>FullStack Developer</p>
-                        <Button href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-light">Linkedin</Button>
+                        <Button className='social' href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-light">Linkedin</Button>
                         <br />
-                        <Button href='https://github.com/ferbperdomo' variant="outline-light">Github</Button>
+                        <Button className='social' href='https://github.com/ferbperdomo' variant="outline-light">Github</Button>
                     </article>
 
                 </Container>
@@ -42,7 +43,7 @@ const IndexPage = () => {
                     </article>
                     <hr />
                     <figure className='mern'>
-                        <h2>Tech me</h2>
+                        <h2>Stack</h2>
                         <img src={mern} alt="MERN stack" />
 
                     </figure>
@@ -52,34 +53,71 @@ const IndexPage = () => {
 
             <section id='tech'>
                 <Container>
-                    <Table striped borderless>
-                        <thead>
-                            <tr>
-                                <th>Frontend</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>HTML5</td>
-                                <td>CSS3</td>
-                                <td>JavaScript</td>
-                                <td>React</td>
-                            </tr>
-                        </tbody>
-                        <thead>
-                            <tr>
-                                <th>Backend</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Mongo</td>
-                                <td>Express</td>
-                                <td>Node</td>
-                                <td>Mongoose</td>
-                            </tr>
-                        </tbody>
-                    </Table>
+                    <article className='tech-stack'>
+                        <Row>
+                            <Col>
+                                <h3>Frontend</h3>
+                                <hr />
+                                <ul>
+                                    <li>JavaScrilit</li>
+                                    <li>React</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                </ul>
+                            </Col>
+                            <Col>
+                                <h3>Backend</h3>
+                                <hr />
+                                <ul>
+                                    <li>Express</li>
+                                    <li>Node</li>
+                                    <li>Mongo</li>
+                                    <li>Mongoose</li>
+                                </ul>
+                            </Col>
+                        </Row>
+                        <Col>
+                            <h3>More</h3>
+                            <hr />
+                            <Row>
+                                <Col>
+                                    <ul>
+                                        <li>Axios</li>
+                                        <li>NPM</li>
+                                        <li>Babel</li>
+                                        <li>Vscode</li>
+                                        <li>Notion</li>
+                                    </ul>
+                                </Col>
+                                <Col>
+                                    <ul>
+                                        <li>Bootstrap</li>
+                                        <li>Nodemailer</li>
+                                        <li>Chrome Developer Tools</li>
+                                        <li>JWT Json Web Token</li>
+                                    </ul>
+                                </Col>
+                            </Row>
+                            <div className="d-grid gap-2">
+                                <Link to='/projects'>
+                                    <Button className='btn-projects' >
+                                        Projects
+                                    </Button>
+                                </Link>
+                            </div>
+                        </Col>
+
+                    </article>
+                </Container>
+            </section>
+            <section id='contact'>
+                <Container>
+                    <article className='contact'>
+                        <h2>Contact</h2>
+                        <p> If you want to contact me, please send me an email or set a 30' meeting.</p>
+                        <Button className='email' href="mailto:ferbperdomo@gmail.com" variant="outline-light">Email</Button>
+                        <Button href="https://calendly.com/ferbperdomo/30min" variant="outline-light">Meeting</Button>
+                    </article>
                 </Container>
             </section>
         </>
