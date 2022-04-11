@@ -12,12 +12,12 @@ const Navigation = () => {
                     <Navbar.Brand href="/">CP</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                        <Nav.Link href="#about">Who am I?</Nav.Link>
+                        <Nav.Link href="#about">About me</Nav.Link>
                         <NavLink to="/projects">
-                            <Nav.Link as="span">My projects</Nav.Link>
+                            <Nav.Link as="span">Projects</Nav.Link>
                         </NavLink>
                         <NavLink to="/contact">
-                            <Nav.Link as="span">Contact me :)</Nav.Link>
+                            <Nav.Link as="span">Contact</Nav.Link>
                         </NavLink>
                     </Navbar.Collapse>
                 </Container>

@@ -22,7 +22,7 @@ a {
 }
 
 .social {
-    margin: 10px;
+    margin-right: 10px;
 }
 
 .wavy-hand {
@@ -32,17 +32,15 @@ a {
 
 .introduction {
     padding-top: 100px;
+    margin: 30px;
 }
 
 .brand {
     overflow: hidden;
-    font-size: 1.8em;
+    font-size: 1.6em;
     border-right: .10em solid;
     white-space: nowrap;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-right: 20%;
-    margin-left: auto;
+    margin: 0 20% 10px 0;
     letter-spacing: .10em;
     animation: typing 3.5s ease,
         blink-caret .75s ease infinite;
@@ -73,23 +71,11 @@ a {
 .icon {
     display: inline-flex;
     justify-content: center;
-    margin-top: 70px;
 }
 
 .icon img {
     margin-top: 20%;
     width: 50%;
-    animation: headmoving 2.1s infinite alternate-reverse linear;
-}
-
-@keyframes headmoving {
-    from {
-        margin-top: 0
-    }
-
-    to {
-        margin-top: 10%
-    }
 }
 
 #about .container {
@@ -144,9 +130,10 @@ a {
     margin-right: 10px;
 }
 
+/* 
 @media (min-width: 576px) {
     #hero {
         background-position: center;
         text-align: right;
     }
-}
+} */
