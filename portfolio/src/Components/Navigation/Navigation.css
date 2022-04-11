@@ -24,3 +24,7 @@ a {
 .modal-body {
     background-color: rgba(232, 82, 64, 1);
 }
+
+.navbar-icon {
+    width: 50px;
+}

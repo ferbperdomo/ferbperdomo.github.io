@@ -45,7 +45,6 @@ const IndexPage = () => {
                     <figure className='mern'>
                         <h2>Stack</h2>
                         <img src={mern} alt="MERN stack" />
-
                     </figure>
 
                 </Container>
