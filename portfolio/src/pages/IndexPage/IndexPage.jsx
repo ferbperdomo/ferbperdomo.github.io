@@ -20,13 +20,14 @@ const IndexPage = () => {
                         <p className='career'>FullStack Developer</p>
                         <Button className='social' href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-dark">Linkedin</Button>
                         <Button className='social' href='https://github.com/ferbperdomo' variant="outline-dark">Github</Button>
+                        <br />
+                        <figure className='icon'>
+                            <img src={icon} alt="icon using a computer" />
+                        </figure>
+                        <figure className='mern' >
+                            <img src={mern} alt="MERN stack" />
+                        </figure>
                     </article>
-                    <article className='icon'>
-                        <img src={icon} alt="icon using a computer" />
-                    </article>
-                    <figure className='mern' >
-                        <img src={mern} alt="MERN stack" />
-                    </figure>
                 </Container>
 
             </section>

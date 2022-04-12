@@ -24,6 +24,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: white !important;
+}
+
 .social {
     margin-top: 10px;
     margin-right: 10px;
@@ -45,6 +49,7 @@ a {
 
 .brand {
     overflow: hidden;
+    display: -webkit-inline-box;
     font-size: 2.1em;
     letter-spacing: 1.5px;
     border-right: .10em solid;
@@ -76,12 +81,12 @@ a {
 }
 
 .icon {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
 .icon img {
-    padding-top: 30px;
+    padding-top: 100px;
     width: 50%;
 }
 
@@ -143,10 +148,38 @@ a {
     margin-right: 10px;
 }
 
-/* 
+
 @media (min-width: 576px) {
     #hero {
-        background-position: center;
-        text-align: right;
+        height: 100vh;
     }
-} */
+
+    .brand {
+        font-size: 2.9em;
+    }
+
+    .career {
+        font-size: 1.7em;
+    }
+
+    .icon img {
+        padding-top: 50px;
+        width: 25%;
+    }
+
+    .mern img {
+        width: 150px;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    #projects img {
+        width: 250px;
+    }
+
+    #projects .irongame {
+        width: 550px;
+    }
+}
