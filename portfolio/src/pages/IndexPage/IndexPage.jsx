@@ -113,8 +113,8 @@ const IndexPage = () => {
                     <article className='contact'>
                         <h2>Contact</h2>
                         <p> If you want to contact me, please send me an email or set a 30' meeting.</p>
-                        <Button className='email' href="mailto:ferbperdomo@gmail.com" variant="outline-light">Email</Button>
-                        <Button href="https://calendly.com/ferbperdomo/30min" variant="outline-light">Meeting</Button>
+                        <Button className='email' href="mailto:ferbperdomo@gmail.com" variant="outline-dark">Email</Button>
+                        <Button href="https://calendly.com/ferbperdomo/30min" variant="outline-dark">Meeting</Button>
                     </article>
                 </Container>
             </section>
