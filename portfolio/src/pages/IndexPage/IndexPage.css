@@ -6,12 +6,17 @@
     margin-top: 6vh;
 }
 
+
 h2 {
     font-size: 2.3em;
     font-weight: 700;
     margin-top: 20px;
     padding-bottom: 30px;
     text-align: right;
+}
+
+hr {
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -108,7 +113,7 @@ a:hover {
 }
 
 #projects .row {
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 #projects img {
@@ -164,7 +169,7 @@ a:hover {
 
     .icon img {
         padding-top: 50px;
-        width: 25%;
+        width: 20%;
     }
 
     .mern img {
