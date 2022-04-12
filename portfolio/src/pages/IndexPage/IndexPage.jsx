@@ -41,7 +41,9 @@ const IndexPage = () => {
                         </p>
                         <p>
                             I’ll help you translate your amazing and complex ideas into code while using JavaScript and MERN Stack, but always open to learn new things.
-                        </p>
+                            As FullStack developer, I am fluent in JavaScript, React, HTML5 and CSS3, regarding the Frontend, and Express, Node, Mongo and Mongoose, regarding the Backend </p>
+                        <p>I have experience with frameworks, libraries and tools such as Axios, Babel, Vscode, Notion, JWT, NPM, Nodemailer, Bootstrap, Chrome Developer Tools.</p>
+                        <p>I am a native Spanish speaker, fluent in English and begginer in French.  </p>
                     </article>
                 </Container>
             </section>
