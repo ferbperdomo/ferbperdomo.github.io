@@ -18,8 +18,8 @@ const IndexPage = () => {
                         <p>Hi! <img className='wavy-hand' src="https://media.tenor.com/images/30169e4a670daf12443df7d2dd140176/tenor.gif" alt='wavy hand' /> I am</p>
                         <p className='brand'>Cristian Perdomo.</p>
                         <p className='career'>FullStack Developer</p>
-                        <Button className='social' href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-dark">Linkedin</Button>
-                        <Button className='social' href='https://github.com/ferbperdomo' variant="outline-dark">Github</Button>
+                        <Button className='social' href="https://www.linkedin.com/in/cristian-perdomo-parra/" variant="outline-dark" target="_blank">Linkedin</Button>
+                        <Button className='social' href='https://github.com/ferbperdomo' variant="outline-dark" target="_blank">Github</Button>
                         <br />
                         <figure className='icon'>
                             <img src={icon} alt="icon using a computer" />
@@ -36,7 +36,6 @@ const IndexPage = () => {
                 <Container>
                     <article className='about-me'>
                         <h2>About me</h2>
-                        <hr />
                         <p>
                             After four years of teaching, I decided to decode my mind and recode it to be a developer. Now, I take advantage of my background and I see myself a strong communicator, adaptable, patient and, of course, a tech enthusiast.
                         </p>
@@ -53,7 +52,6 @@ const IndexPage = () => {
                 <Container>
                     <article>
                         <h2>Projects</h2>
-                        <hr />
                         <Row>
                             <Col xs={12} md={6} className='images'>
                                 <img src={coraje} alt="app coraje screenshot" />
@@ -63,7 +61,7 @@ const IndexPage = () => {
                                 <p>Responsive Responsive SPA to register, look for, and share LGBTQ+ safe places. </p>
                                 <h3>Technologies</h3>
                                 <p>React, Google Maps and Geolocation APIs, Heroku and Netlify for hosting.</p>
-                                <Button variant='outline-dark' href='https://coraje.netlify.app/'>Visit page </Button>
+                                <Button variant='outline-dark' href='https://coraje.netlify.app/' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
 
@@ -76,7 +74,7 @@ const IndexPage = () => {
                                 <p>Responsive SPA to check the current weather and forecast around the world. </p>
                                 <h3>Technologies</h3>
                                 <p>DOM and HBS, Openweather and Google Maps APIs, Heroku for hosting.</p>
-                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com'>Visit page </Button>
+                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
 
@@ -89,22 +87,20 @@ const IndexPage = () => {
                                 <p>Desktop survival game inspired by The Binding of Isaac. </p>
                                 <h3>Technologies</h3>
                                 <p>Canvas, html, css and DOM manipulation.</p>
-                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com'>Visit page </Button>
+                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
                     </article>
-
+                    <hr />
                 </Container>
             </section>
-
             <section id='contact'>
                 <Container>
                     <article className='contact'>
                         <h2>Contact</h2>
-                        <hr />
                         <p> If you want to contact me, please send me an email or set a 30' meeting.</p>
                         <Button className='email' href="mailto:ferbperdomo@gmail.com" variant="outline-dark">Email</Button>
-                        <Button href="https://calendly.com/ferbperdomo/30min" variant="outline-dark">Meeting</Button>
+                        <Button href="https://calendly.com/ferbperdomo/30min" variant="outline-dark" target="_blank">Meeting</Button>
                     </article>
                 </Container>
             </section>

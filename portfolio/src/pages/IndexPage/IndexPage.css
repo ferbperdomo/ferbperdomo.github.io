@@ -8,16 +8,13 @@
 
 
 h2 {
-    font-size: 2.3em;
+    font-size: 1.8em;
     font-weight: 700;
     margin-top: 20px;
     padding-bottom: 30px;
-    text-align: right;
+    text-align: left;
 }
 
-hr {
-    margin-bottom: 50px;
-}
 
 h3 {
     padding-top: 10px;
@@ -104,9 +101,6 @@ a:hover {
     justify-content: center;
 }
 
-#projects {
-    text-align: right;
-}
 
 #projects .container {
     padding: 40px 40px 0 40px;
@@ -144,8 +138,13 @@ a:hover {
 }
 
 #contact {
-    padding: 40px;
+    padding-bottom: 50px;
     text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+    padding-top: 30px;
 }
 
 
@@ -177,7 +176,17 @@ a:hover {
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+
+    #projects {
+        text-align: right;
+        align-items: center;
+    }
+
+    #projects .row {
+        display: flex;
+        align-items: center;
     }
 
     #projects img {
