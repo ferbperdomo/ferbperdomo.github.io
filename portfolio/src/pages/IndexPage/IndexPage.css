@@ -1,5 +1,5 @@
 #hero {
-    height: 80vh;
+    height: 100vh;
     text-align: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +92,7 @@ a:hover {
     width: 50%;
 }
 
+
 #about .container {
     padding: 40px 40px 0 40px;
 }
@@ -152,8 +153,19 @@ a:hover {
     margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+    .icon img {
+        width: 35%;
+    }
+}
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
+    #hero {
+        height: 120vh;
+    }
+}
+
+@media (min-width: 1200px) {
     #hero {
         height: 100vh;
     }
