@@ -5,13 +5,15 @@ import coraje from '../../img/coraje.png'
 import cloudy from '../../img/cloudynight.png'
 import irongame from '../../img/irongame.png'
 import '../IndexPage/IndexPage.css'
+import { ThemeContext } from '../../contexts/ThemeContext'
 
 
 const IndexPage = () => {
+    const { theme } = useContext(ThemeContext)
 
 
     return (
-        <>
+        <Container className={'homepage' + theme}>
             <section id='hero'>
                 <Container >
                     <article className='introduction'>
@@ -74,7 +76,7 @@ const IndexPage = () => {
                                 <p>Responsive SPA to check the current weather and forecast around the world. </p>
                                 <h3>Technologies</h3>
                                 <p>DOM and HBS, Openweather and Google Maps APIs, Heroku for hosting.</p>
-                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com' target="_blank">Visit page </Button>
+                                <Button variant='outline-dark' href='https://cloudy-night.herokuapp.com/' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
 
@@ -87,7 +89,7 @@ const IndexPage = () => {
                                 <p>Desktop survival game inspired by The Binding of Isaac. </p>
                                 <h3>Technologies</h3>
                                 <p>Canvas, html, css and DOM manipulation.</p>
-                                <Button variant='outline-dark' href='cloudy-night.herokuapp.com' target="_blank">Visit page </Button>
+                                <Button variant='outline-dark' href='https://ferbperdomo.github.io/irongame/' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
                     </article>
@@ -104,7 +106,7 @@ const IndexPage = () => {
                     </article>
                 </Container>
             </section>
-        </>
+        </Container>
 
     )
 }
