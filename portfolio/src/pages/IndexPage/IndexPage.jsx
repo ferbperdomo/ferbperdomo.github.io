@@ -5,15 +5,12 @@ import coraje from '../../img/coraje.png'
 import cloudy from '../../img/cloudynight.png'
 import irongame from '../../img/irongame.png'
 import '../IndexPage/IndexPage.css'
-import { ThemeContext } from '../../contexts/ThemeContext'
-
 
 const IndexPage = () => {
-    const { theme } = useContext(ThemeContext)
 
 
     return (
-        <Container className={'homepage' + theme}>
+        <Container>
             <section id='hero'>
                 <Container >
                     <article className='introduction'>
