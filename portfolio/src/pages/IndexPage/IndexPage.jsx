@@ -57,7 +57,7 @@ const IndexPage = () => {
                             </Col>
                             <Col xs={12} md={6}>
                                 <h3>Coraje</h3>
-                                <p>Responsive Responsive SPA to register, look for, and share LGBTQ+ safe places. </p>
+                                <p>Responsive SPA to register, look for, and share LGBTQ+ safe places. </p>
                                 <h3>Technologies</h3>
                                 <p>React, Google Maps and Geolocation APIs, Heroku and Netlify for hosting.</p>
                                 <Button variant='outline-dark' href='https://coraje.netlify.app/' target="_blank">Visit page </Button>
