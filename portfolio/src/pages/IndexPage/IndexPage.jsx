@@ -4,6 +4,7 @@ import mern from '../../img/mern.png'
 import coraje from '../../img/coraje.png'
 import cloudy from '../../img/cloudynight.png'
 import irongame from '../../img/irongame.png'
+import remitt from '../../img/remitt.png'
 import '../IndexPage/IndexPage.css'
 
 const IndexPage = () => {
@@ -53,13 +54,25 @@ const IndexPage = () => {
                         <h2>Projects</h2>
                         <Row>
                             <Col xs={12} md={6} className='images'>
+                                <img src={remitt} alt="app remitt screenshot" />
+                            </Col>
+                            <Col xs={12} md={6}>
+                                <h3>Remitt</h3>
+                                <p>Responsive SPA used to compare fees and amount received in money transfers around the world.</p>
+                                <h3>Technologies</h3>
+                                <p>React, transferwise API, tailwind, Vercel for hosting.</p>
+                                <Button variant='outline-dark' href='https://remitt.vercel.app/' target="_blank">Visit page </Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs={12} md={6} className='images'>
                                 <img src={coraje} alt="app coraje screenshot" />
                             </Col>
                             <Col xs={12} md={6}>
                                 <h3>Coraje</h3>
                                 <p>Responsive SPA to register, look for, and share LGBTQ+ safe places. </p>
                                 <h3>Technologies</h3>
-                                <p>React, Google Maps and Geolocation APIs, Heroku and Netlify for hosting.</p>
+                                <p>React, Google Maps and Geolocation APIs, bootstrap, Heroku and Netlify for hosting.</p>
                                 <Button variant='outline-dark' href='https://coraje.netlify.app/' target="_blank">Visit page </Button>
                             </Col>
                         </Row>
