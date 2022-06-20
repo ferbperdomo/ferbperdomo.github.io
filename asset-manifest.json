@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ec16f383.css",
-    "main.js": "/static/js/main.18e1ead9.js",
+    "main.js": "/static/js/main.bc52a703.js",
+    "static/media/remitt.png": "/static/media/remitt.2cd20d2bbeb5c73fa5b3.png",
     "static/media/irongame.png": "/static/media/irongame.826f04806cbdb8f9bb7f.png",
     "static/media/cloudynight.png": "/static/media/cloudynight.fe560f3623d9f9e17f11.png",
     "static/media/coraje.png": "/static/media/coraje.b060e2b69a601a8dcd18.png",
@@ -9,10 +10,10 @@
     "static/media/icon.png": "/static/media/icon.e5769d6eed75e3a3b93d.png",
     "index.html": "/index.html",
     "main.ec16f383.css.map": "/static/css/main.ec16f383.css.map",
-    "main.18e1ead9.js.map": "/static/js/main.18e1ead9.js.map"
+    "main.bc52a703.js.map": "/static/js/main.bc52a703.js.map"
   },
   "entrypoints": [
     "static/css/main.ec16f383.css",
-    "static/js/main.18e1ead9.js"
+    "static/js/main.bc52a703.js"
   ]
 }
