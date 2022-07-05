@@ -5,6 +5,7 @@ import coraje from '../../img/coraje.png'
 import cloudy from '../../img/cloudynight.png'
 import irongame from '../../img/irongame.png'
 import remitt from '../../img/remitt.png'
+import clonetflix from '../../img/clonetflix.png'
 import '../IndexPage/IndexPage.css'
 
 const IndexPage = () => {
@@ -52,6 +53,18 @@ const IndexPage = () => {
                 <Container>
                     <article>
                         <h2>Projects</h2>
+                        <Row>
+                            <Col xs={12} md={6} className='images'>
+                                <img src={clonetflix} alt="app clonetflix screenshot" />
+                            </Col>
+                            <Col xs={12} md={6}>
+                                <h3>Clonetflix</h3>
+                                <p>Responsive netflix clone that allows user to register and simulate payments the same way netflix does and allows them to watch trailers and add the movies to their list.</p>
+                                <h3>Technologies</h3>
+                                <p>TypeScript, Nextjs, Tailwind, Stripe, TMBD api, Auth with Firebase, and vercel for hosting.</p>
+                                <Button variant='outline-dark' href='https://clonetflix.vercel.app/' target="_blank">Visit page </Button>
+                            </Col>
+                        </Row>
                         <Row>
                             <Col xs={12} md={6} className='images'>
                                 <img src={remitt} alt="app remitt screenshot" />
