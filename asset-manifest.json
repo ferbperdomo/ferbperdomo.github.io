@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ec16f383.css",
-    "main.js": "/static/js/main.bc52a703.js",
+    "main.js": "/static/js/main.b9052d69.js",
+    "static/media/clonetflix.png": "/static/media/clonetflix.138ac1402411debdca70.png",
     "static/media/remitt.png": "/static/media/remitt.2cd20d2bbeb5c73fa5b3.png",
     "static/media/irongame.png": "/static/media/irongame.826f04806cbdb8f9bb7f.png",
     "static/media/cloudynight.png": "/static/media/cloudynight.fe560f3623d9f9e17f11.png",
@@ -10,10 +11,10 @@
     "static/media/icon.png": "/static/media/icon.e5769d6eed75e3a3b93d.png",
     "index.html": "/index.html",
     "main.ec16f383.css.map": "/static/css/main.ec16f383.css.map",
-    "main.bc52a703.js.map": "/static/js/main.bc52a703.js.map"
+    "main.b9052d69.js.map": "/static/js/main.b9052d69.js.map"
   },
   "entrypoints": [
     "static/css/main.ec16f383.css",
-    "static/js/main.bc52a703.js"
+    "static/js/main.b9052d69.js"
   ]
 }
